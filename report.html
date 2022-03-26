@@ -22,8 +22,7 @@
                         <li>项目名称 ： ${PROJECT_NAME}</li>
                         <li>构建编号 ： 第${BUILD_NUMBER}次构建</li>
                         <li>构建时间 ： ${SCRIPT, template="buildtime.groovy"}</li>
-                        <li>Git URL ： <a href="${Repository_URL}">${Repository
-				-URL}</a></li>
+                        <li>Git URL ： <a href="${$PROJECT_NAME}">${$PROJECT_NAME}</a></li>
                         <li>Git  分支： ${GIT_BRANCH}</li>
 		     <li>运行结果  ：$BUILD_STATUS</li>
                         <li>触发 原因： ${CAUSE}</li>
